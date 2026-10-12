@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Ate Thedy! 🎀</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="bow bow-one">🥳🎉🎂</div>
+    <div class="bow bow-two">🥳🎉🎂</div>
+
+
+    <header class="hero">
+        <span class="eyebrow">♡ A LITTLE GIFT FOR YOU ♡</span>
+        <h1>Happy Birthday,<br><em>Ate Thedy!🥳</em></h1>
+        <p class="subtitle">
+            To our second mom, and the best ate ever! 💗
+        </p>
+    </header>
+
+    <main>
+        <!-- COUNTDOWN -->
+        <section class="section countdown-section">
+            <span class="eyebrow">TODAY IS SPECIAL DAY</span>
+            <h2>YEY <em>BIRTHDAY MO NA! 🎉</em></h2>
+            <p class="section-intro">Because someone as special as you deserves all the love.</p>
+
+
+            <div class="countdown">
+                <div class="countdown-box">
+                    <span id="months">00</span>
+                    <p>Months</p>
+                </div>
+
+                <div class="countdown-box">
+                    <span id="days">00</span>
+                    <p>Days</p>
+                </div>
+
+                <div class="countdown-box">
+                    <span id="hours">00</span>
+                    <p>Hours</p>
+                </div>
+
+                <div class="countdown-box">
+                    <span id="minutes">00</span>
+                    <p>Minutes</p>
+                </div>
+
+                <div class="countdown-box">
+                    <span id="seconds">00</span>
+                    <p>Seconds</p>
+                </div>
+            </div>
+
+            <p id="countdown-message" class="tiny-note"></p>
+        </section>
+
+        <!-- PHOTO GALLERY -->
+        <section class="section" id="memories">
+            <span class="eyebrow">LITTLE MOMENTS, BIG MEMORIES</span>
+            <h2>Our little <em>corner</em></h2>
+            <p class="section-intro">
+                A few snapshots of the memories I treasure with you.
+            </p>
+
+            <div class="gallery">
+                <figure class="polaroid tilt-left">
+                    <img src="5.jpg" alt="Bestie memory one">
+                    <figcaption>alam mo ba ate, dagat reminds me of you kasi lumaki kaming tatlo na ikaw ang nag dadala
+                        saamin sa dagat hehe ♡</figcaption>
+                </figure>
+
+                <figure class="polaroid tilt-right">
+                    <img src="6.jpg" alt="Bestie memory two">
+                    <figcaption>the good old days 🎀</figcaption>
+                </figure>
+
+                <figure class="polaroid tilt-left">
+                    <img src="7.jpg" alt="Bestie memory three">
+                    <figcaption>you + your babies haha, always</figcaption>
+                </figure>
+            </div>
+            <p class="tiny-note">
+
+            </p>
+        </section>
+
+        <!-- SURPRISE LETTER -->
+        <section class="section letter-section">
+            <span class="eyebrow">SEALED WITH LOVE</span>
+            <h2>A little letter <em>for you</em></h2>
+            <p class="section-intro">
+                There's something I've been wanting to tell you.
+            </p>
+
+            <button class="button" id="letter-button" onclick="openLetter()">
+                Open your letter 💌
+            </button>
+
+            <article class="letter" id="letter" hidden>
+                <div class="letter-bow">🎀</div>
+                <h3>To my dearest Ate,</h3>
+                <p>
+                    Happy birthday to one of the most important person in my life!
+                    I'm so grateful to have a big sister like you, someone I can share laughs, stories, and
+                    unforgettable memories with.
+                    But more than that, I'm grateful for the kind of person you are and for everything you've taught me,
+                    even without you realizing it.
+
+                </p>
+                <p>
+                    You taught me that being
+                    strong doesn't mean you never feel scared, but that you still choose to face your fears despite
+                    being afraid. I love how you always remind me to be brave and to never let my fears stop me from
+                    experiencing the things life has to offer.
+                </p>
+                <p>
+                    Thank you for being our second mom, for looking after us, guiding us, and loving us in ways that
+                    sometimes go beyond what words can explain. I know being the ate isn't always easy, but I hope you
+                    know how much we appreciate you and all the things you've done for us. You have given us so many
+                    memories to treasure, and one of my favorite things about you is how you always want us to
+                    experience the things you've experienced, to see the places you've seen, and to enjoy the little
+                    things that have made you happy. It's like you want us to experience the beautiful parts of life
+                    with you, and that's something I'll always be grateful for.
+                </p>
+                <p>
+                    And Ate, no matter how much time passes or how much our lives change, I hope you know that the love
+                    we have for you is still the same love we had for you when we were little. We may be growing up, and
+                    soon you'll be starting a new chapter as a wife and eventually as a mother, but you'll always be our
+                    Ate—the person we've loved and looked up to since we were kids.
+
+                    It makes me so happy and excited to think about the family you're going to build. I can't wait for
+                    the day your future children get to know you the way we do and experience for themselves how
+                    amazing, loving, and caring you are. I know they'll be so lucky to have you as their mom, just as
+                    we've been lucky to have you as our big sister. I hope they get to see the same strength, kindness,
+                    and love that you've shown us throughout our lives. I love you so much, Ate.
+                </p>
+                <p class="signature">
+                    your pasaway na kapatid,<br>
+                    <em>marga♡</em>
+                </p>
+            </article>
+        </section>
+
+        <!-- INTERACTIVE CAKE -->
+        <section class="section cake-section">
+            <span class="eyebrow">MAKE A WISH</span>
+            <h2>A cake just <em>for you</em></h2>
+            <p class="section-intro">
+            </p>
+
+            <div class="cake-stage">
+                <div class="cake-emoji" id="cake">🎂</div>
+                <div class="candle-message" id="candle-message">
+                    Your wish is waiting... ✨
+                </div>
+            </div>
+
+            <button class="button" id="candle-button" onclick="blowCandles()">
+                Blow out the candles 🕯️
+            </button>
+        </section>
+
+        <!-- CLOSING -->
+        <section class="closing">
+            <div class="closing-bow">୨୧</div>
+            <h2>Love you <em>always!</em></h2>
+            <p>Here's to more laughs, more memories, and more birthdays together. 💗</p>
+            <div class="sparkles">♡ ✧ 🎀 ✧ ♡</div>
+        </section>
+    </main>
+
+    <footer>
+        made with love, just for you ♡
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
